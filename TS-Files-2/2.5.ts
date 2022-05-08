@@ -16,10 +16,10 @@ let arr: any[] = [
   5,
 ];
 
-interface flattenObject {
+interface FlattenObject {
   (p1: object): object;
 }
-const flattenObj: flattenObject = (object) => {
+const flattenObj: FlattenObject = (object) => {
   let result: object = {};
 
   for (const i in object) {

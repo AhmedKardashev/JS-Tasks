@@ -13,14 +13,14 @@ let array: any[] = [
   },
   { count: 5 },
 ];
-interface forObj {
+interface ForObj {
   [key: string]: number;
 }
 interface Array<T> {
   countAray(): object;
 }
 Array.prototype.countAray = function (): object {
-  let object: forObj = {
+  let object: ForObj = {
     nullCount: 0,
     objectsCount: 0,
     stringsCount: 0,

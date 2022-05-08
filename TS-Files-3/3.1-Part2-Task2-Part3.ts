@@ -1,5 +1,5 @@
 // Part 3:
-interface forPerson {
+interface ForPerson {
   firstName: string;
   lastName: string;
   role: {
@@ -7,7 +7,7 @@ interface forPerson {
     id: number;
   };
 }
-const person: forPerson = {
+const person: ForPerson = {
   firstName: "John",
   lastName: "Doe",
   role: {

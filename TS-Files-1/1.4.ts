@@ -15,12 +15,12 @@ let array = [
   },
   { count: 5 },
 ];
-interface forObject {
+interface ForObject {
   [key: string]: number;
 }
 
 function countArray(arr: any[]): object {
-  let object: forObject = {
+  let object: ForObject = {
     nullCount: 0,
     objectsCount: 0,
     stringsCount: 0,

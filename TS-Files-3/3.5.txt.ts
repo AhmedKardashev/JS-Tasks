@@ -1,4 +1,4 @@
-interface forObj {
+interface ForObj {
   func: () => void;
   person: {
     firstName: string;
@@ -22,7 +22,7 @@ interface forObj {
   competencies: [object, object];
 }
 
-const obj: forObj = {
+const obj: ForObj = {
   func: () => {
     console.log("Im Function");
   },

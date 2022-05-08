@@ -11,7 +11,7 @@ const arr2: any[] = [
   undefined,
   6,
 ];
-interface leng {
+interface Leng {
   length: number;
 }
 const appender = (arr1: any[], arr2: any[]): any[] => {
