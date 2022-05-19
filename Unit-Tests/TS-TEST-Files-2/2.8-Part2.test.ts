@@ -1,7 +1,7 @@
 import { it, expect } from "vitest";
 import { findByWeight } from "../TS-Files-2/2.8-Part2";
 
-it("function must return true or false if all elements in the array have a higher weight than passed argument", () => {
+it("should return if each element of the array is heavier", () => {
   const arr = [
     6,
     "value",

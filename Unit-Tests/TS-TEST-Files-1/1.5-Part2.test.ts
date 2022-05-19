@@ -1,5 +1,5 @@
 import { it, expect } from "vitest";
-import { heaviness } from "./TS-Files-1/1.5-Part1";
+import { heaviness } from "../TS-Files-1/1.5-Part1";
 
 it("should return the weight of all items", () => {
   const object = { cards: 6, label: "Test", description: "value", type: 1 };

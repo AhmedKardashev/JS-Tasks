@@ -1,7 +1,7 @@
 import { it, expect } from "vitest";
 import { flattenObj } from "../TS-Files-2/2.5";
 
-it("accepts an array as the argument and returns the same array with every object in the array flattened", () => {
+it(" shold accepts an array as the argument and returns the array flattened", () => {
   const arr = [
     {
       person: {

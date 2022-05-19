@@ -1,7 +1,7 @@
 import { it, expect } from "vitest";
 import { findByWeight } from "../TS-Files-2/2.8-Part1";
 
-it("The function must return true or false if there is an element in the array that has the same weight ", () => {
+it("should return if an array weight equals the given weight ", () => {
   const arr: any[] = [
     6,
     "value",

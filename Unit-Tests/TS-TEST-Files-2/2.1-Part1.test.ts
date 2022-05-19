@@ -1,7 +1,7 @@
 import { it, expect } from "vitest";
 import { bubbleSort } from "../TS-Files-2/2.1-Part1";
 
-it("Sorts the array with bubble sort", () => {
+it("should sort the array with bubble sort", () => {
   const arr: number[] = [6, 4, 3, 1, 9, 2];
 
   const result = bubbleSort(arr);

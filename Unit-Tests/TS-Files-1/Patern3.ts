@@ -1,5 +1,5 @@
 // задача: Patern 3
-const printPatent3 = (n: number): void => {
+export const printPatent3 = (n: number): void => {
   let i: number, j: number, k: number, result: string;
   for (i = 1; i <= n; i++) {
     result = "";
